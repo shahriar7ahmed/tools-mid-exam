@@ -2,14 +2,35 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Positivus</title>
+
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 
-<body class="min-h-screen bg-gray-100 flex items-center justify-center ">
-    <h1 class="text-4xl font-bold">Hello World</h1>
+<body class="container mx-auto">
+    <section>
+        <nav class="flex justify-between items-center p-4 mx-6">
+            <div>
+                <img src="assets/logo-big.png" alt="Positivus logo" />
+            </div>
+            <div class="flex items-center justify-around gap-12">
+                <ul class="flex space-x-4">
+                    <li class="nav-item"><a href="#">About Us</a></li>
+                    <li class="nav-item"><a href="#">Services</a></li>
+                    <li class="nav-item"><a href="#">Use Cases</a></li>
+                    <li class="nav-item"><a href="#">Pricing</a></li>
+                    <li class="nav-item"><a href="#">Blog</a></li>
+                </ul>
+                <button class="btn btn-outline">Request a Quote</button>
+            </div>
+        </nav>
+    </section>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
