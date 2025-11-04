@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,11 +9,12 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@latest/dist/full.css" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
 </head>
+
 <body class="min-h-screen bg-white text-black">
     <header class="container mx-auto px-4">
         <nav class="flex items-center justify-between py-4">
             <div class="flex items-center gap-4">
-                <img src="assets/logo-big.png" alt="Positivus logo" class="h-10 w-auto"/>
+                <img src="assets/logo-big.png" alt="Positivus logo" class="h-10 w-auto" />
             </div>
             <div class="flex items-center gap-4">
                 <ul class="hidden md:flex items-center space-x-6 text-sm">
@@ -24,8 +26,10 @@
                 </ul>
                 <button class="btn btn-outline hidden md:inline-block">Request a Quote</button>
                 <button id="menu-toggle" class="md:hidden p-2 rounded focus:outline-none" aria-label="Toggle menu">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
                     </svg>
                 </button>
             </div>
@@ -45,28 +49,69 @@
     <main class="container mx-auto px-4">
         <section class="flex flex-col-reverse md:flex-row items-center gap-8 py-12">
             <div class="w-full md:w-1/2">
-                <span class="inline-block bg-lime-300 text-black px-3 py-1 rounded font-semibold mb-4">Case Studies</span>
-                <p class="text-sm text-gray-700 mb-4">Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.</p>
-                <h1 class="text-3xl md:text-5xl font-bold leading-tight mb-4">Navigating the digital landscape for success</h1>
-                <p class="text-lg text-gray-700 mb-6">Explore real-life examples of our proven digital marketing success through our case studies.</p>
-                <div class="flex flex-wrap gap-3">
-                    <button class="btn btn-neutral">Book a consultation</button>
-                    <button class="btn btn-outline">Learn more</button>
-                </div>
+                <p class="text-sm text-gray-700 mb-4">Our digital marketing agency helps businesses grow and succeed
+                    online through a range of services including SEO, PPC, social media marketing, and content creation.
+                </p>
+                <button class="btn btn-neutral">Book a consultation</button>
+                <h1 class="mt-4 text-3xl md:text-5xl font-bold leading-tight mb-4">Navigating the digital landscape for
+                    success</h1>
+                <h1 class="text-3xl md:text-5xl leading-tight mb-4">Navigating the digital landscape for success</h1>
+            </div>
             </div>
             <div class="w-full md:w-1/2 flex justify-center">
-                <img src="assets/cover.png" alt="Cover" class="w-full max-w-md object-cover rounded"/>
+                <img src="assets/cover.png" alt="Cover" class="w-full max-w-md object-cover rounded" />
             </div>
         </section>
 
-        <section class="py-8">
-            <div class="bg-lime-300 rounded-lg p-6 md:p-8">
-                <h2 class="text-2xl font-semibold mb-2">Case Studies</h2>
-                <p class="text-gray-700">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies</p>
+        <section class="py-2">
+            <div class="flex justify-start p-6 md:p-8">
+                <h2 class=" bg-lime-300 rounded-lgtext-2xl font-semibold mb-2">Case Studies</h2>
+                <p class="text-gray-700">Explore Real-Life Examples of Our Proven Digital Marketing Success through Our
+                    Case Studies</p>
+            </div>
+        </section>
+        <section>
+            <div class="flex justify-around">
+                <img src="assets/amazon.png" alt="">
+                <img src="assets/hubspot.png" alt="">
+                <img src="assets/netflix.png" alt="">
+                <img src="assets/dribble.png" alt="">
+                <img src="assets/zoom.png" alt="">
+                <img src="assets/notion.png" alt="">
+            </div>
+        </section>
+        <section>
+            <div
+                class="w-full flex flex-col md:flex-row items-center justify-around p-6 md:p-8 bg-black rounded-lg text-white">
+                <div class="flex-1 flex flex-col items-start md:items-center p-8 m-4">
+                    <p class="mb-4">For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50% increase in website traffic and a 25% increase in sales.</p>
+                    <div class="flex items-center gap-2">
+                        <button class="text-lime-500 font-medium">Learn more</button>
+                        <img src="assets/Icon.png" alt="" class="w-5 h-5">
+                    </div>
+                </div>
+                <div class="flex-1 flex flex-col items-start md:items-center p-8 m-4">
+                    <p class="mb-4">For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50% increase in website traffic and a 25% increase in sales.</p>
+                    <div class="flex items-center gap-2">
+                        <button class="text-white underline font-medium">Learn more</button>
+                        <img src="assets/Icon.png" alt="" class="w-5 h-5">
+                    </div>
+                </div>
+                <div class="flex-1 flex flex-col items-start md:items-center p-8 m-4">
+                    <p class="mb-4">For a local restaurant, we implemented a targeted PPC campaign that resulted in a
+                        50% increase in website traffic and a 25% increase in sales.</p>
+                    <div class="flex items-center gap-2">
+                        <button class="text-lime-500 font-medium">Learn more</button>
+                        <img class="w-4 h-4" src="assets/Icon.png" alt="">
+                    </div>
+                </div>
             </div>
         </section>
     </main>
 
     <script src="script.js"></script>
 </body>
+
 </html>
