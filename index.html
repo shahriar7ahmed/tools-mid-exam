@@ -54,24 +54,129 @@
                 <h1 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-bold leading-tight">
                     Navigating the digital landscape for success
                 </h1>
-                <p class="text-sm sm:text-base lg:text-lg text-gray-700 leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                <p class="text-sm sm:text-base lg:text-lg text-gray-600 leading-relaxed max-w-2xl mx-auto lg:mx-0">
                     Our digital marketing agency helps businesses grow and succeed online through a range of services including SEO, PPC, social media marketing, and content creation.
                 </p>
-                <button class="btn btn-neutral btn-sm sm:btn-md">Book a consultation</button>
+                <div class="flex gap-3 sm:gap-4 flex-col sm:flex-row justify-center lg:justify-start">
+                    <button class="btn btn-neutral btn-sm sm:btn-md">Book a consultation</button>
+                    <button class="btn btn-outline btn-sm sm:btn-md">Learn more</button>
+                </div>
             </div>
             <div class="w-full lg:w-1/2 flex justify-center">
-                <img src="assets/cover.png" alt="Digital marketing illustration" class="w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover rounded-lg" width="600" height="400" loading="eager" />
+                <img src="assets/cover.png" alt="Digital marketing illustration" class="w-full max-w-sm sm:max-w-md lg:max-w-lg object-cover rounded-lg shadow-lg" width="600" height="400" loading="eager" />
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="py-8 sm:py-10 lg:py-12 bg-gray-50 rounded-2xl px-4 sm:px-6 lg:px-8 my-8">
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                <div class="text-center">
+                    <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-lime-600">500+</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Projects Completed</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-lime-600">98%</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Client Satisfaction</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-lime-600">12+</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Years Experience</p>
+                </div>
+                <div class="text-center">
+                    <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-lime-600">150+</p>
+                    <p class="text-xs sm:text-sm text-gray-600 mt-2">Team Members</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="py-8 sm:py-10 lg:py-12">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-8">
+                <h2 class="bg-lime-300 rounded-lg px-3 py-1.5 text-xl sm:text-2xl lg:text-3xl font-semibold inline-block">
+                    Our Services
+                </h2>
+            </div>
+            <p class="text-gray-600 text-sm sm:text-base lg:text-lg max-w-3xl mb-8">
+                Comprehensive Digital Marketing Solutions Tailored to Your Business Goals
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+                <!-- Service Cards -->
+                <div class="border-2 border-gray-200 rounded-xl p-6 hover:border-lime-300 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-lime-300 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">SEO Optimization</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">Boost your online visibility and rank higher in search results with our proven SEO strategies.</p>
+                    <a href="#" class="text-lime-600 font-medium hover:text-lime-700 transition-colors">Learn more →</a>
+                </div>
+
+                <div class="border-2 border-gray-200 rounded-xl p-6 hover:border-lime-300 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-lime-300 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">PPC Advertising</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">Drive immediate results with targeted paid advertising campaigns across multiple platforms.</p>
+                    <a href="#" class="text-lime-600 font-medium hover:text-lime-700 transition-colors">Learn more →</a>
+                </div>
+
+                <div class="border-2 border-gray-200 rounded-xl p-6 hover:border-lime-300 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-lime-300 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6V4m0 2a2 2 0 100 4m0-4a2 2 0 110 4m-6 8a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4m6 6v10m6-2a2 2 0 100-4m0 4a2 2 0 110-4m0 4v2m0-6V4" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Social Media Marketing</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">Engage your audience and build brand loyalty through strategic social media campaigns.</p>
+                    <a href="#" class="text-lime-600 font-medium hover:text-lime-700 transition-colors">Learn more →</a>
+                </div>
+
+                <div class="border-2 border-gray-200 rounded-xl p-6 hover:border-lime-300 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-lime-300 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C6.5 6.75 2 10.5 2 15.5s4.5 8.75 10 9.25m0-13c5.5-.5 10-4.25 10-9.25S17.5 5.75 12 5.253" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Content Creation</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">Quality content that resonates with your target audience and drives conversions.</p>
+                    <a href="#" class="text-lime-600 font-medium hover:text-lime-700 transition-colors">Learn more →</a>
+                </div>
+
+                <div class="border-2 border-gray-200 rounded-xl p-6 hover:border-lime-300 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-lime-300 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Analytics & Reporting</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">Data-driven insights to measure ROI and optimize your marketing strategy.</p>
+                    <a href="#" class="text-lime-600 font-medium hover:text-lime-700 transition-colors">Learn more →</a>
+                </div>
+
+                <div class="border-2 border-gray-200 rounded-xl p-6 hover:border-lime-300 hover:shadow-lg transition-all duration-300 group">
+                    <div class="w-12 h-12 bg-lime-300 rounded-lg flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Marketing Strategy</h3>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed mb-4">Develop a comprehensive strategy that aligns with your business objectives and goals.</p>
+                    <a href="#" class="text-lime-600 font-medium hover:text-lime-700 transition-colors">Learn more →</a>
+                </div>
             </div>
         </section>
 
         <!-- Case Studies Header -->
-        <section id="cases" class="py-8 sm:py-10 lg:py-12">
-            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
+        <section id="cases" class="py-8 sm:py-10 lg:py-12 mt-8">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-8">
                 <h2 class="bg-lime-300 rounded-lg px-3 py-1.5 text-xl sm:text-2xl lg:text-3xl font-semibold inline-block">
                     Case Studies
                 </h2>
             </div>
-            <p class="text-gray-700 text-sm sm:text-base lg:text-lg max-w-3xl">
+            <p class="text-gray-600 text-sm sm:text-base lg:text-lg max-w-3xl">
                 Explore Real-Life Examples of Our Proven Digital Marketing Success through Our Case Studies
             </p>
         </section>
@@ -88,54 +193,119 @@
             </div>
         </section>
 
-        <!-- Testimonials -->
-        <section class="py-8 sm:py-10 lg:py-12"></section>
+        <!-- Testimonials Section -->
+        <section class="py-8 sm:py-10 lg:py-12">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-8">
+                <h2 class="bg-lime-300 rounded-lg px-3 py-1.5 text-xl sm:text-2xl lg:text-3xl font-semibold inline-block">
+                    Client Testimonials
+                </h2>
+            </div>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 bg-black rounded-2xl p-4 sm:p-6 lg:p-8 text-white">
-                <article class="flex flex-col gap-3 sm:gap-4 p-4 hover:bg-gray-900 rounded-lg transition-colors"></article>
-                    <p class="text-sm sm:text-base leading-relaxed">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
-                    <a href="#" class="flex items-center gap-2 text-lime-400 font-medium hover:text-lime-300 transition-colors group">
-                        Learn more
-                        <img src="assets/Icon.png" alt="" class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" width="20" height="20" loading="lazy" />
-                    </a>
-                </article>
-                <article class="flex flex-col gap-3 sm:gap-4 p-4 hover:bg-gray-900 rounded-lg transition-colors"></article>
-                    <p class="text-sm sm:text-base leading-relaxed">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
-                    <a href="#" class="flex items-center gap-2 text-white font-medium hover:text-lime-400 transition-colors group">
-                        Learn more
-                        <img src="assets/Icon.png" alt="" class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" width="20" height="20" loading="lazy" />
-                    </a>
-                </article>
                 <article class="flex flex-col gap-3 sm:gap-4 p-4 hover:bg-gray-900 rounded-lg transition-colors">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-lime-300"></div>
+                        <div>
+                            <p class="font-semibold text-sm">John Smith</p>
+                            <p class="text-xs text-gray-400">Restaurant Owner</p>
+                        </div>
+                    </div>
                     <p class="text-sm sm:text-base leading-relaxed">For a local restaurant, we implemented a targeted PPC campaign that resulted in a 50% increase in website traffic and a 25% increase in sales.</p>
                     <a href="#" class="flex items-center gap-2 text-lime-400 font-medium hover:text-lime-300 transition-colors group">
                         Learn more
-                        <img src="assets/Icon.png" alt="" class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" width="20" height="20" loading="lazy" />
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="flex flex-col gap-3 sm:gap-4 p-4 hover:bg-gray-900 rounded-lg transition-colors">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-lime-300"></div>
+                        <div>
+                            <p class="font-semibold text-sm">Sarah Johnson</p>
+                            <p class="text-xs text-gray-400">E-commerce Manager</p>
+                        </div>
+                    </div>
+                    <p class="text-sm sm:text-base leading-relaxed">Their social media marketing strategy increased our followers by 200% and converted leads into loyal customers.</p>
+                    <a href="#" class="flex items-center gap-2 text-lime-400 font-medium hover:text-lime-300 transition-colors group">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
+                    </a>
+                </article>
+
+                <article class="flex flex-col gap-3 sm:gap-4 p-4 hover:bg-gray-900 rounded-lg transition-colors">
+                    <div class="flex items-center gap-3 mb-2">
+                        <div class="w-10 h-10 rounded-full bg-lime-300"></div>
+                        <div>
+                            <p class="font-semibold text-sm">Michael Chen</p>
+                            <p class="text-xs text-gray-400">SaaS Founder</p>
+                        </div>
+                    </div>
+                    <p class="text-sm sm:text-base leading-relaxed">Outstanding results with their SEO optimization. We've seen a 3x improvement in organic traffic and significantly better rankings.</p>
+                    <a href="#" class="flex items-center gap-2 text-lime-400 font-medium hover:text-lime-300 transition-colors group">
+                        Learn more
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+                        </svg>
                     </a>
                 </article>
             </div>
         </section>
 
         <!-- Process Section -->
-        <section class="py-8 sm:py-10 lg:py-12">
-            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-4">
+        <section class="py-8 sm:py-10 lg:py-12 mt-8">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-8">
                 <h2 class="bg-lime-300 rounded-lg px-3 py-1.5 text-xl sm:text-2xl lg:text-3xl font-semibold inline-block">
                     Our Working Process
                 </h2>
             </div>
-            <p class="text-gray-700 text-sm sm:text-base lg:text-lg max-w-3xl">
+            <p class="text-gray-600 text-sm sm:text-base lg:text-lg max-w-3xl mb-8">
                 Step-by-Step Guide to Achieving Your Business Goals
             </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8">
+                <div class="relative">
+                    <div class="flex items-center justify-center w-12 h-12 bg-lime-300 rounded-full mb-4 font-bold text-lg">01</div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Discovery</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">We analyze your business, goals, and target audience to create a customized strategy.</p>
+                    <div class="hidden lg:block absolute top-16 -right-8 w-16 h-0.5 bg-lime-300"></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-center justify-center w-12 h-12 bg-lime-300 rounded-full mb-4 font-bold text-lg">02</div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Strategy</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">We develop a comprehensive plan with clear objectives, timelines, and KPIs.</p>
+                    <div class="hidden lg:block absolute top-16 -right-8 w-16 h-0.5 bg-lime-300"></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-center justify-center w-12 h-12 bg-lime-300 rounded-full mb-4 font-bold text-lg">03</div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Implementation</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Our team executes the plan across all digital channels with precision and expertise.</p>
+                    <div class="hidden lg:block absolute top-16 -right-8 w-16 h-0.5 bg-lime-300"></div>
+                </div>
+                <div class="relative">
+                    <div class="flex items-center justify-center w-12 h-12 bg-lime-300 rounded-full mb-4 font-bold text-lg">04</div>
+                    <h3 class="text-lg sm:text-xl font-semibold mb-3">Optimization</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">We continuously monitor and optimize campaigns for maximum performance and ROI.</p>
+                </div>
+            </div>
         </section>
 
         <!-- FAQ Accordion -->
-        <section class="faq-accordion pb-12 lg:pb-20 space-y-3 sm:space-y-4">
-            <div class="collapse collapse-plus bg-lime-300 border border-lime-300 rounded-xl shadow-sm hover:shadow-md transition-shadow"></div>
+        <section class="faq-accordion pb-12 lg:pb-20 space-y-3 sm:space-y-4 mt-8">
+            <div class="flex flex-col sm:flex-row sm:items-center gap-4 mb-8">
+                <h2 class="bg-lime-300 rounded-lg px-3 py-1.5 text-xl sm:text-2xl lg:text-3xl font-semibold inline-block">
+                    Frequently Asked Questions
+                </h2>
+            </div>
+
+            <div class="collapse collapse-plus bg-lime-300 border border-lime-300 rounded-xl shadow-sm hover:shadow-md transition-shadow">
                 <input type="radio" name="my-accordion-3" checked="checked" />
                 <div class="collapse-title font-semibold text-black text-sm sm:text-base lg:text-lg">
                     How do I create an account?
                 </div>
                 <div class="collapse-content text-xs sm:text-sm lg:text-base text-gray-800">
-                    <p>Click the "Sign Up" button in the top right corner and follow the registration process.</p>
+                    <p>Click the "Sign Up" button in the top right corner and follow the registration process. You'll need to provide basic information and verify your email address.</p>
                 </div>
             </div>
 
@@ -145,7 +315,7 @@
                     I forgot my password. What should I do?
                 </div>
                 <div class="collapse-content text-xs sm:text-sm lg:text-base text-gray-800">
-                    <p>Click on "Forgot Password" on the login page and follow the instructions sent to your email.</p>
+                    <p>Click on "Forgot Password" on the login page and follow the instructions sent to your email. You'll be able to reset your password within minutes.</p>
                 </div>
             </div>
 
@@ -154,15 +324,42 @@
                 <div class="collapse-title font-semibold text-black text-sm sm:text-base lg:text-lg">
                     How do I update my profile information?
                 </div>
-                <div class="collapse-content text-xs sm:text-sm lg:text-base text-gray-800"></div>
-                    <p>Go to "My Account" settings and select "Edit Profile" to make changes.</p>
+                <div class="collapse-content text-xs sm:text-sm lg:text-base text-gray-800">
+                    <p>Go to "My Account" settings and select "Edit Profile" to make changes. You can update your personal information, contact details, and preferences at any time.</p>
                 </div>
             </div>
+
+            <div class="collapse collapse-plus bg-lime-300 border border-lime-300 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold text-black text-sm sm:text-base lg:text-lg">
+                    What payment methods do you accept?
+                </div>
+                <div class="collapse-content text-xs sm:text-sm lg:text-base text-gray-800">
+                    <p>We accept all major credit cards, PayPal, bank transfers, and cryptocurrency. All transactions are secure and encrypted.</p>
+                </div>
+            </div>
+
+            <div class="collapse collapse-plus bg-lime-300 border border-lime-300 rounded-xl shadow-sm hover:shadow-md transition-shadow">
+                <input type="radio" name="my-accordion-3" />
+                <div class="collapse-title font-semibold text-black text-sm sm:text-base lg:text-lg">
+                    Do you offer customer support?
+                </div>
+                <div class="collapse-content text-xs sm:text-sm lg:text-base text-gray-800">
+                    <p>Yes! We offer 24/7 customer support via email, phone, and live chat. Our support team is here to help you with any questions or concerns.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-12 lg:py-16 px-6 sm:px-8 lg:px-12 bg-gradient-to-r from-lime-300 to-lime-200 rounded-2xl text-center mb-12 lg:mb-16">
+            <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 text-black">Ready to Transform Your Digital Presence?</h2>
+            <p class="text-gray-800 text-sm sm:text-base lg:text-lg mb-6 max-w-2xl mx-auto">Let's work together to achieve your business goals and drive meaningful growth.</p>
+            <button class="btn btn-neutral btn-lg">Get Started Today</button>
         </section>
     </main>
 
     <!-- Footer -->
-    <footer class="bg-black text-white rounded-t-3xl">
+    <footer class="bg-black text-white rounded-t-3xl mt-12">
         <div class="container mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl py-8 sm:py-10 lg:py-12">
             <!-- Top Section -->
             <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6 lg:gap-8 pb-8 border-b border-gray-800">
@@ -171,59 +368,71 @@
                 </div>
                 
                 <nav class="lg:w-1/2" aria-label="Footer navigation">
-                    <ul class="flex flex-wrap justify-center items-center gap-3 sm:gap-4 lg:gap-6 text-xs sm:text-sm font-medium"></ul>
-                                </ul>
-                            </nav>
-                            
-                            <div class="flex justify-center lg:justify-end lg:w-1/4 gap-4">
-                                <a href="#" class="hover:opacity-80 transition">
-                                    <img src="assets/social-linkedin.png" alt="LinkedIn" class="h-6 w-6" />
-                                </a>
-                                <a href="#" class="hover:opacity-80 transition">
-                                    <img src="assets/social-fb.png" alt="Facebook" class="h-6 w-6" />
-                                </a>
-                                <a href="#" class="hover:opacity-80 transition">
-                                    <img src="assets/social-twitter.png" alt="Twitter" class="h-6 w-6" />
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mt-8 lg:mt-12 py-8 border-t border-gray-800">
-                            <!-- Contact Details -->
-                            <div class="space-y-4">
-                                <h3 class="bg-lime-300 text-black rounded-lg px-3 py-1 text-lg font-semibold inline-block">Contact us:</h3>
-                                <div class="space-y-2 text-sm">
-                                    <p>Email: info@positivus.com</p>
-                                    <p>Phone: 555-567-8901</p>
-                                    <p>Address: 1234 Main St<br />Moonstone City, Stardust State 12345</p>
-                                </div>
-                            </div>
-                            
-                            <div class="space-y-4">
-                                <div class="flex flex-col sm:flex-row gap-3 bg-gray-900 rounded-lg p-4">
-                                    <input 
-                                        type="email" 
-                                        placeholder="Email" 
-                                        class="input flex-1 bg-gray-900 border border-gray-700 text-white placeholder-gray-400 focus:border-lime-300 focus:outline-none"
-                                    />
-                                    <button class="btn bg-lime-300 hover:bg-lime-400 text-black border-none px-6">
-                                        Subscribe to news
-                                    </button>
-                                </div>
-                            </div>
-                        </div>
-                        
-                        <div class="pt-8 pb-4 border-t border-gray-800">
-                            <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-sm text-gray-400">
-                                <p>&copy; 2023 Positivus. All Rights Reserved.</p>
-                                <a href="#" class="hover:text-lime-400 transition underline">Privacy Policy</a>
-                            </div>
-                        </div>
+                    <ul class="flex flex-wrap justify-center items-center gap-3 sm:gap-4 lg:gap-6 text-xs sm:text-sm font-medium">
+                        <li><a href="#" class="hover:text-lime-400 transition-colors">About</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition-colors">Services</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition-colors">Portfolio</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition-colors">Blog</a></li>
+                        <li><a href="#" class="hover:text-lime-400 transition-colors">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="flex justify-center lg:justify-end lg:w-1/4 gap-4">
+                    <a href="#" class="hover:opacity-80 transition" aria-label="LinkedIn">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition" aria-label="Facebook">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="hover:opacity-80 transition" aria-label="Twitter">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M23 3a10.9 10.9 0 11-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.45 7-7 7-7s1.5 4.5-5 8.5"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 mt-8 lg:mt-12 py-8 border-t border-gray-800">
+                <!-- Contact Details -->
+                <div class="space-y-4">
+                    <h3 class="bg-lime-300 text-black rounded-lg px-3 py-1 text-lg font-semibold inline-block">Contact us:</h3>
+                    <div class="space-y-2 text-sm">
+                        <p><span class="text-lime-400">Email:</span> info@positivus.com</p>
+                        <p><span class="text-lime-400">Phone:</span> +1 (555) 567-8901</p>
+                        <p><span class="text-lime-400">Address:</span> 1234 Main St, Moonstone City, Stardust State 12345</p>
                     </div>
                 </div>
-            </footer>
-        </section>
-    </main>
+                
+                <div class="space-y-4">
+                    <h3 class="text-white text-sm font-semibold">Newsletter</h3>
+                    <div class="flex flex-col sm:flex-row gap-3 bg-gray-900 rounded-lg p-3">
+                        <input 
+                            type="email" 
+                            placeholder="Enter your email" 
+                            class="input flex-1 bg-gray-900 border border-gray-700 text-white placeholder-gray-500 focus:border-lime-300 focus:outline-none text-sm"
+                        />
+                        <button class="btn bg-lime-300 hover:bg-lime-400 text-black border-none px-6 btn-sm">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pt-8 pb-4 border-t border-gray-800">
+                <div class="flex flex-col sm:flex-row justify-between items-center gap-4 text-xs sm:text-sm text-gray-400">
+                    <p>&copy; 2024 Positivus. All Rights Reserved.</p>
+                    <div class="flex gap-6">
+                        <a href="#" class="hover:text-lime-400 transition">Privacy Policy</a>
+                        <a href="#" class="hover:text-lime-400 transition">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
